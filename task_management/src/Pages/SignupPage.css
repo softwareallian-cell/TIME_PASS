@@ -1,0 +1,98 @@
+
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.signup-container form {
+    background-color: #355070;
+    padding: 45px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.signup-container h1 {
+    color: #EAC096;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 5rem;
+}
+
+.signup-container label {
+    color: #E56B6F;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: -12px;
+    margin-left: 2px;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="password"],
+.signup-container select {
+    background-color: rgba(250, 245, 241, 0.1);
+    border: 1.5px solid #6D597A;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 1rem;
+    color: #FAF5F1;
+}
+
+.signup-container input:focus,
+.signup-container select:focus {
+    border-color: #EAC096;
+    background-color: rgba(250, 245, 241, 0.15);
+}
+
+.signup-container select option {
+    background-color: #355070;
+    color: #FAF5F1;
+}
+
+.signup-container button {
+    background-color: #E56B6F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.signup-container button:hover {
+    background-color: #B56576;
+    transform: translateY(-2px);
+}
+
+.signup-container button:active {
+    transform: translateY(0);
+}
+
+.signup-container div[style*="flex"] {
+    margin-top: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.signup-container p {
+    font-size: 0.9rem;
+    color: rgba(250, 245, 241, 0.8);
+}
+
+.signup-container a {
+    color: #EAC096;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.signup-container a:hover {
+    color: #E56B6F;
+    text-decoration: underline;
+}

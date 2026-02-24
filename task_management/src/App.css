@@ -1,0 +1,95 @@
+/* --- GLOBAL NAVBAR --- */
+nav {
+  background-color: #355070;
+  /* Police Blue */
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #FAF5F1;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+nav a:hover {
+  color: #EAC096;
+}
+
+nav button {
+  background-color: #E56B6F;
+  /* Coral */
+  color: white;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: auto;
+  font-size: 25px;
+  /* Pushes logout to the right */
+}
+
+/* --- ADMIN PAGE --- */
+.admin-container {
+  max-width: 900px;
+  margin: 30px auto;
+  font-family: sans-serif;
+  padding: 20px;
+  color: #355070;
+}
+
+.admin-container h1 {
+  border-bottom: 2px solid #EAC096;
+  padding-bottom: 10px;
+}
+
+.admin-section {
+  margin-top: 40px;
+}
+
+/* Simple Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: #fff;
+  table-layout: fixed;
+}
+
+th {
+  background-color: #6D597A;
+  /* Chinese Violet */
+  color: white;
+  text-align: left;
+  padding: 10px;
+
+  word-break: break-all;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+
+
+  word-break: break-all;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Admin Role color logic */
+.role-admin {
+  color: blue;
+  font-weight: bold;
+}
+
+.role-user {
+  color: black;
+}
