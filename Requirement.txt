@@ -1,0 +1,11 @@
+﻿LIST OF REQUIRED LIBRARIES FOR THE PROJECT.
+
+
+
+
+Pandas
+numpy 
+tmatplotlib.pyplot as plt
+seaborn 
+Sklearn.preprocessing
+sklearn.model_selection
